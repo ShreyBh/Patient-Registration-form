@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+<form action="prescription.php" method="POST">  
+<div class="container">  
+  <center>  <h1> Patient Registeration Form</h1> </center>  
+  <hr>  
+  <h3> Patient name </h3>   
+    <input type="text" name="patname" placeholder= "Patient name" size="15" required />     
+    <div>  
+      <label>
+        <b>   
+          Age :
+        </b>
+      </label> 
+    <input type="text" name="age" placeholder="Age" size="3" required />
+      <label>
+        <b>   
+          Gender :
+        </b>
+      </label>   
+    <input type="text" name="gender" placeholder="Gender" size="15" required /> 
+      <label>
+        <b>   
+          Address :
+        </b>
+      </label>   
+    <input type="text" name="address" placeholder="Address" size="40" required /> 
+    </div> 
+
+<div>  
+
+</div>  
+<label>
+<b>Date : </b>
+</label> 
+<input type="date" name="date" placeholder="Date"/>
+<div>
+  <br>
+<label> 
+<b>Medical Notes: </b>
+</label>
+</div>
+<textarea cols="60" rows="8" placeholder="Medical Notes" name = "notes"  required autofocus>  
+
+</textarea>
+<div>
+  <label><b>Details of Medicine: </b></label>
+</div>
+<textarea cols="60" rows="8" placeholder="Medical Notes" name = "medicine" required autofocus>  
+ 
+</textarea>  
+<button type="submit" class="registerbtn">Register</button>  
+  </div>
+</form>  
+</body>  
+</html>  
